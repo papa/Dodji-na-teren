@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.dodjinateren">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikonica"
+        android:label="Dodji na teren!"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.dodjinateren.HomeActivity" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="Dodji na teren!"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="Pozovi prijatelja" />
+        <activity android:name=".SportoviActivity" />
+        <activity android:name=".LoginActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBxE-hhf683H2LurIqTJSaHGHtPDLjNrwM" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".DodajterenActivity"
+            android:label="Dodajte teren!" />
+        <activity
+            android:name=".TereniActivity"
+            android:label="Tereni" />
+        <activity android:name=".KorisniciActivity" />
+        <activity
+            android:name=".InfoterActivity"
+            android:label="Informacije o terenu" />
+        <activity android:name=".InfokorActivity" />
+        <activity android:name=".IzaberiActivity" />
+        <activity android:name=".IzaberisportActivity" />
+        <activity android:name=".InfosportActivity" />
+        <activity android:name=".OdjavaActivity" />
+        <activity android:name=".IzaberioActivity" />
+        <activity android:name=".PodesavanjaActivity" />
+    </application>
+
+</manifest>

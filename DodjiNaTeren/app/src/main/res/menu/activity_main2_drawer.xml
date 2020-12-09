@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/check"
+            android:icon="@drawable/check"
+            android:title="Prijava i odjava sa terena"/>
+        <item
+            android:id="@+id/tereni"
+            android:icon="@drawable/terenislika"
+            android:title="Tereni" />
+        <item
+            android:id="@+id/prijatelji"
+            android:icon="@drawable/prijatelji"
+            android:title="Ostali korisnici" />
+        <item
+            android:id="@+id/mapa"
+            android:icon="@drawable/lokacija"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/sportovi"
+            android:icon="@drawable/sportovi"
+            android:title="Sportovi"/>
+        <item
+            android:id="@+id/dodajter"
+            android:icon="@drawable/terenislika"
+            android:title="Dodajte teren!"
+            />
+        <item
+            android:id="@+id/pozovi"
+            android:icon="@drawable/dodaj"
+            android:title="Pozovi prijatelja" />
+        <item
+            android:id="@+id/podesavanja"
+            android:title="Podesavanja"
+            android:icon="@drawable/podesavanja"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Log out"/>
+    </group>
+
+
+
+</menu>

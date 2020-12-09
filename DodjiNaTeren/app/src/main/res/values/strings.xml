@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">DodjiNaTeren</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="sportovi">
+        <item>Kosarka</item>
+        <item>Fudbal</item>
+        <item>Tenis</item>
+    </string-array>
+    <string-array name="tereni">
+        <item>Dusko</item>
+        <item>Platforma</item>
+        <item>Raifaisen</item>
+    </string-array>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_probamapa">probamapa</string>
+</resources>

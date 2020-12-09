@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.dodjinateren.DodajterenActivity">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+
+
+     <TextView android:layout_height="0dp"
+         android:layout_weight="1"
+         android:layout_width="match_parent"
+         android:padding="20dp"
+         android:gravity="center"
+         android:textSize="20sp"
+         android:textAlignment="center"
+         android:text="U prvo polje upisite naziv pod kojim ce korisnici moci da pronadju teren a zatim izaberite koji ce sve sportovi moci da se igraju na njemu."/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Ime terena"
+         android:id="@+id/imet"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:paddingTop="10dp">
+
+         <CheckBox
+             android:id="@+id/kosarka"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="30dp"
+             android:checked="false"
+             android:text="Kosarka"
+             android:textSize="20sp" />
+         <CheckBox
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Fudbal"
+             android:id="@+id/fudbal"
+             android:textSize="20sp"
+             android:layout_marginLeft="90dp"/>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:paddingTop="10dp">
+
+         <CheckBox
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="30dp"
+             android:text="Tenis"
+             android:id="@+id/tenis"
+             android:textSize="20sp" />
+
+         <CheckBox
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="115dp"
+             android:text="Plivanje"
+             android:id="@+id/plivanje"
+             android:textSize="20sp" />
+
+     </LinearLayout>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_gravity="center"
+         android:id="@+id/dodajt"
+         android:onClick="dodaj"
+         android:text="DODAJ TEREN"/>
+</LinearLayout>
+ </LinearLayout>
+</android.support.constraint.ConstraintLayout>
